@@ -1,0 +1,103 @@
+#clock {
+    font-size: 20px;
+    width: 120px;
+    /* margin: 200px; */
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color:black;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+*{
+  padding: 1px;
+}
+.container, .sideBarTabs{
+    display: flex;
+    list-style: none;
+    
+  } 
+  .home ,#tab1{
+    padding-right: 15px;
+    cursor: pointer;
+    font-size: x-large;
+
+  }
+  .about,#tab2{
+    padding-right: 15px;
+    cursor: pointer;
+    font-size: x-large;
+
+}
+  
+  .codingProfile,#tab3{
+    padding-right: 15px;
+    cursor: pointer;
+    font-size: x-large;
+
+  }
+.dropbtn {
+  /* background-color: #3498DB; */
+  /* color: white; */
+  /* padding: 16px; */
+  /* font-size: 16px; */
+  /* border: none; */
+  cursor: pointer;
+  padding-right: 15px;
+  color: black;
+  font-size: x-large;
+
+
+}
+/* 
+ 
+.dropdown {
+  position: relative;
+  display: inline-block;
+} */
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(189, 189, 189);
+  /* min-width: 160px; */
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* .dropdown a:hover {background-color: #ddd;} */
+
+.show {display: block;}
+/* .logo{
+    
+        font-size: 20px;
+        width: 120px;
+        margin: 200px;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 20px;
+        background-color:black;
+        color: white;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }  */
+    #marquee{
+        padding-top: 2px;
+        background-color: rgb(226, 226, 81);
+    }
+    #myphoto{
+        height: 200px;
+        width: 200px;
+        border-radius: 50px;
+    }

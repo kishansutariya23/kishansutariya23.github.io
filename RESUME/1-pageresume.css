@@ -1,0 +1,61 @@
+body{
+    color: black;
+    /* background-size:cover ; */
+    font-family:"Times New Roman";
+    font-size: 12px;
+    height: 842px;
+    width: 595px;
+   
+
+}
+/* below is formakingthe container in middle */
+body{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.page{
+    /* 3508x2480 px */
+    /* height: 210px; */
+     padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    border: 0.1px solid gray;
+    box-shadow: 5px 5px 5px 5px  lightgray;
+     
+}
+.title{
+    font-size: 16px;
+}
+.listTop{
+    padding: 0;
+    margin: 0;
+   
+
+}
+.listlink{
+    padding: 0;
+    margin: 0;
+   
+}
+
+.listTop {
+list-style: none;
+}
+.listlink{
+    list-style: none;
+}
+.para_cobj{
+    text-align: justify;
+}
+.qualification{
+    text-align: center;
+}
+tr,td,table,th{
+    border: 2px solid black;  
+}
