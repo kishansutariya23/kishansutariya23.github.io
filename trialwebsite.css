@@ -1,3 +1,6 @@
+body{
+  background-color: #b8b8b8;
+}
 #clock {
     font-size: 20px;
     width: 120px;
@@ -94,10 +97,10 @@
     }  */
     #marquee{
         padding-top: 2px;
-        background-color: rgb(226, 226, 81);
+        background-color: #03203C;
     }
     #myphoto{
-        height: 200px;
-        width: 200px;
-        border-radius: 50px;
+        height: 300px;
+        /* width: 200px; */
+        border-radius: 500px;
     }
