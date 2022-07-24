@@ -14,7 +14,7 @@
   }
   ul li{
     /* position: relative; */
-    /* display: block; */
+    display: block;
     /* color: rgb(255, 0, 0); */
     font-size: 30px;
 
