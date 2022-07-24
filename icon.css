@@ -1,0 +1,122 @@
+  /* *{ 
+    margin: 0;
+    /* padding: 0; */
+    /* list-style: none; */
+  
+  .connect{
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  } 
+  ul{
+    display:flex;
+  }
+  ul li{
+    /* position: relative; */
+    /* display: block; */
+    /* color: rgb(255, 0, 0); */
+    font-size: 30px;
+
+    /* width: 0px; */
+    background: #ffffff;
+    max-width: 50px;
+    border-color: #ffffff;
+    line-height: 35px;
+    
+    border-radius: 50%;
+    margin:0 10px;
+    cursor: pointer;
+    transition: .5s;
+  }
+  ul li:before{
+    position: relative;
+    content: '';
+    top: 0;
+    left: 0; 
+    height: inherit;
+    width: inherit;
+    background: #d35400;
+    border-radius: 100px;
+    transform: scale(.9);
+    z-index: -1;
+    transition: .5s;
+    color: white;
+  }
+  ul li:nth-child(1):before{
+    background: white;
+  }
+  ul li:nth-child(2):before{
+    background: #1DA1F2;
+  }
+  ul li:nth-child(3):before{
+    background: #E1306C;
+  }
+  ul li:nth-child(4):before{
+    background: #2867B2;
+  }
+  ul li:nth-child(5):before{
+    background: #ff0000;
+  }
+  ul li:nth-child(6):before{
+    color:whitesmoke;
+    background: #fefeff;
+  }
+  ul li:hover:before{
+    filter: blur(3px);
+    transform: scale(1.2);
+    /* box-shadow: 0 0 15px #d35400; */
+  }
+  ul li:nth-child(1):hover:before{
+    box-shadow: 0 0 15px black;
+  }
+  ul li:nth-child(2):hover:before{
+    box-shadow: 0 0 15px #1DA1F2;
+  }
+  ul li:nth-child(3):hover:before{
+    box-shadow: 0 0 15px #E1306C;
+  }
+  ul li:nth-child(4):hover:before{
+    box-shadow: 0 0 15px #2867B2;
+  }
+  ul li:nth-child(5):hover:before{
+    box-shadow: 0 0 15px #ff0000;
+  }
+  ul li:nth-child(6):hover:before{
+    box-shadow: 0 0 15px #0099ff;
+  }
+   ul li:nth-child(1):hover{
+    /* color: white; */
+    box-shadow: 0 0 15px #010102;
+    text-shadow: 0 0 15px #000000;
+  }
+  ul li:nth-child(2):hover{
+    /* color: #26a4f2; */
+    box-shadow: 0 0 15px #1DA1F2;
+    text-shadow: 0 0 15px #1DA1F2;
+  }
+  ul li:nth-child(3):hover{
+    /* color: #e23670; */
+    box-shadow: 0 0 15px #E1306C;
+    text-shadow: 0 0 15px #E1306C;
+  }
+  ul li:nth-child(4):hover{
+    /* color: #2a6cbb; */
+    box-shadow: 0 0 15px #2867B2;
+    text-shadow: 0 0 15px #2867B2;
+  }
+  ul li:nth-child(5):hover{
+    /* color: #ff1a1a; */
+    box-shadow: 0 0 15px #ff0000;
+    text-shadow: 0 0 15px #ff0000;
+  }
+  ul li:nth-child(6):hover{
+    /* color: #040404; */
+    box-shadow: 0 0 15px #0070f8;
+    text-shadow: 0 0 15px #0070f8;
+  }
+  ul li:hover{
+    color: #ffffff;
+    box-shadow: 0 0 15px #d35400;
+    text-shadow: 0 0 15px #d35400;
+  } 
