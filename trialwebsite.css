@@ -19,7 +19,7 @@ body{
 }
 *{
   padding: 1px;
-    list-style: none;
+  list-style-type: none;
 }
 .container, .sideBarTabs{
     display: flex;
