@@ -1,10 +1,12 @@
 body{
   background-color: #b8b8b8;
+  position: relative;
  
   background: grey;
 
 }
 #clock {
+  /* padding: 1px; */
     font-size: 20px;
     width: 120px;
     /* margin: 200px; */
@@ -19,6 +21,9 @@ body{
 }
 *{
   padding: 1px;
+  /* display:inline; */
+  /* position: relative; */
+
   list-style-type: none;
 }
 .container, .sideBarTabs{
