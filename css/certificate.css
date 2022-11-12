@@ -5,6 +5,16 @@
     font-family: sans-serif;
     background-color: rgb(184, 184, 184);
 } */
+
+.photo-gallery .pic{
+    /* min-width: 110px; */
+    min-width: 240px;
+    height: 340px;
+     /* line-height: 110px;  dont touch this other wise it will have more area */
+    text-align: center;
+    background-color: #ddd;
+    margin-right: 2px;
+}
 input{
     display: none;
 }
@@ -46,6 +56,12 @@ label:hover{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
+    grid-gap: 20px;
+    display: flex;
+    overflow-x: auto;
+}
+.photo-gallery::-webkit-scrollbar{
+    width: 0;
 }
 .pic{
     position: relative;
