@@ -753,6 +753,9 @@ body
 	height: 100%;
 }
 
+
+
+
 .contact{
 	background: var(--bg-color);
 	/* background: blue; */
@@ -794,18 +797,23 @@ body
 	transform: translateX(5px);
 }
 .contact-icons i{
-	height: 45px;
-	width: 45px;
+	height: 50px;
+	width: 50px;
 	background: var(--main-color);
 	color: var(--text-color);
-	font-size: 22px;
+	font-size: 23px;
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
 	border-radius: 8px;
-	margin-right: 15px;
-	transition: all .45s ease;
+	margin-right: 20px;
+ 	transition: all .45s ease;
+
 }
+.contact-icons {
+ 	text-align: center;
+}
+
 .contact-icons i:hover{
 	background: var(--text-color);
 	color: var(--main-color);
