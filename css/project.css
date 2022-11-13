@@ -1,0 +1,52 @@
+.project input{
+    display: none;
+
+}
+
+
+
+
+#all:checked ~ .project-content  .row{
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+    transition: .5s;
+}
+#Tableau:checked ~ .project-content  .Tableau{
+    transform: scale(1);
+    opacity: 1;
+    position: relative;
+}
+/* #Tableau:checked ~ .project-content  .DA, */
+#Tableau:checked ~ .project-content  .PowerBI{
+    transform: scale(0);
+    opacity: 0;
+    position: absolute;
+    transition: 0s;
+}
+
+#PowerBI:checked ~ .project-content  .PowerBI{
+    transform: scale(1);
+    opacity: 1;
+    position: relative;
+}
+/* #PowerBI:checked ~ .project-content  .DA, */
+#PowerBI:checked ~ .project-content  .Tableau{
+    transform: scale(0);
+    opacity: 0;
+    position: absolute;
+    transition: 0s;
+}
+
+/* #check4:checked ~ .project-content  .DA{
+    transform: scale(1);
+    opacity: 1;
+    position: relative;
+}
+#check4:checked ~ .project-content  .other,
+#check4:checked ~ .project-content  .cloud{
+    transform: scale(0);
+    opacity: 0;
+    position: absolute;
+    transition: 0s;
+} */
