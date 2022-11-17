@@ -23,6 +23,8 @@
 --text-black-900:#fff;
 --text-black-700:#ccc;
 }
+ 
+ 
 body{
 	background: var(--bg-color);
 	color: var(--text-color);
@@ -59,7 +61,7 @@ span{
 }
 .navlist a{
 	color: var(--second-color);
-	font-size: 17px;
+	font-size: 16px;
 	font-weight: 500;
 	margin: 0 25px;
 	transition: all .45s ease;
@@ -780,6 +782,10 @@ body
 	line-height: 1.8;
 	margin-bottom: 30px;
 }
+.contact-text .contact-pic img{
+	width:250px;
+	text-align: center;
+ }
 .list{
 	margin-bottom: 2.8rem;
 }
@@ -797,8 +803,8 @@ body
 	transform: translateX(5px);
 }
 .contact-icons i{
-	height: 50px;
-	width: 50px;
+	height: 40px;
+	width: 40px;
 	background: var(--main-color);
 	color: var(--text-color);
 	font-size: 23px;
@@ -806,7 +812,7 @@ body
 	align-items: center;
 	justify-content: center;
 	border-radius: 8px;
-	margin-right: 20px;
+	margin-right: 15px;
  	transition: all .45s ease;
 
 }
@@ -906,6 +912,12 @@ form textarea{
 		height: 76vh;
 		/* height: 87vh; */
 	}
+	.contact-text .contact-pic img{
+		width:200px;
+		text-align: center;
+	}
+ 
+	 
 }
 
 @media (max-width: 920px){
@@ -925,6 +937,15 @@ form textarea{
 	.contact{
 		grid-template-columns: 1fr;
 	}
+	.navlist a{
+		font-size: 15px;
+		margin: 0 20px;
+	}
+	.contact-text .contact-pic  img  {
+		   
+		text-align: center;
+	}
+	
 }
 
 @media (max-width: 840px){
@@ -964,4 +985,6 @@ form textarea{
 	.navlist.open{
 		top: 100%;
 	}
+	 
+ 
 }
