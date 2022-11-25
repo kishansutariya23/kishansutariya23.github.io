@@ -1,0 +1,25 @@
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 0px;
+  height: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+  border-radius: 12px;
+  }
+  
+  
+  
+  ::-webkit-scrollbar-track:horizontal {
+  background: -webkit-linear-gradient(left, rgb(106, 226, 178), rgb(218, 114, 62)); 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+  background: #687ceb;
+  border-radius: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 194, 243, 0.667);  
+  }
