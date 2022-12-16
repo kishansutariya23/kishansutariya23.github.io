@@ -12,32 +12,60 @@
     position: relative;
     transition: .5s;
 }
-#Tableau:checked ~ .project-content  .Tableau{
+/* #Tableau:checked ~ .project-content  .Tableau{
     transform: scale(1);
     opacity: 1;
     position: relative;
 }
-/* #Tableau:checked ~ .project-content  .DA, */
+/* #Tableau:checked ~ .project-content  .DA, 
 #Tableau:checked ~ .project-content  .PowerBI{
     transform: scale(0);
     opacity: 0;
     position: absolute;
     transition: 0s;
-}
+} */
 
-#PowerBI:checked ~ .project-content  .PowerBI{
+#DA:checked ~ .project-content  .DA{
     transform: scale(1);
     opacity: 1;
     position: relative;
 }
-/* #PowerBI:checked ~ .project-content  .DA, */
-#PowerBI:checked ~ .project-content  .Tableau{
+#DA:checked ~ .project-content  .DE,
+#DA:checked ~ .project-content  .cloud{
     transform: scale(0);
     opacity: 0;
     position: absolute;
     transition: 0s;
 }
 
+
+
+#DE:checked ~ .project-content  .DE{
+    opacity: 1;
+    position: relative;
+}
+#DE:checked ~ .project-content  .DA,
+    #DE:checked ~ .project-content  .cloud{
+    transform: scale(0);
+    opacity: 0;
+    position: absolute;
+    transition: 0s;
+}
+
+
+
+#cloud:checked ~ .project-content  .cloud{
+    opacity: 1;
+    position: relative;
+}
+ 
+#cloud:checked ~ .project-content  .DA,
+#cloud:checked ~ .project-content  .DE{
+    transform: scale(0);
+    opacity: 0;
+    position: absolute;
+    transition: 0s;
+}
 /* #check4:checked ~ .project-content  .DA{
     transform: scale(1);
     opacity: 1;
@@ -55,5 +83,57 @@
 
 /* ==================================================
  */
+ 
+ 
+/* @media (max-width:1199px)
+{
+    .photo img{
+        width: 450px;
+        height: 250px;
+    }
+} */
+
+/* @media (max-width:950px)
+{
+    .photo img{
+        width: 500px;
+        height: 250px;
+    }
+} */
+
+@media (max-width:770px)
+{
+    .photo img{
+        width: 250px;
+        height: 150px;
+    }
+    .layer h5{
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 15px;
+        color: #020202;
+    }
+    .layer p{
+        /* color: var(--second-color); */
+        color: rgb(0, 0, 0);
+        /* font-size: 0.9rem; */
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 1.8;
+    }
+    .layer i{
+        color: var(--main-color);
+        margin-top: 20px;
+        font-size: 20px;
+        /* background: var(--text-color); */
+        background: black;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+    }
+}
  
  

@@ -10,8 +10,10 @@
 :root{
 	--bg-color: #2a2a2a;
 	--second-bg-color: #202020;
-	--text-color: #fff;
-	--second-color: #ccc;
+	/* --text-color: #fff; */
+	--text-color: #f2f2f2;
+	/* --second-color: #ccc; */
+	--second-color: #F2F2F2;
 	--main-color: #06d9ba;
 	--big-font: 5rem;
 	--h2-font: 3rem;
@@ -398,15 +400,19 @@ body
 }
 .about .about-content .personal-info
 {
-    flex: 0 0 50%;
+    /* flex: 0 0 50%;
     max-width: 48%;
+    margin-top: 40px; */
+
+	flex: 0 0 50%;
+    max-width: 98%;
     margin-top: 40px;
 	
 }
 .about .about-content .personal-info .info-item
 {
-    flex: 0 0 48%;
-    max-width: 45%;
+    flex: 0 0 100%;
+    max-width: 100%;
  }
 .about .about-content .personal-info .info-item p
 {
@@ -707,8 +713,8 @@ body
 }
 
 .photo img{
-	width: 650px;
-	height: 350px;
+	width: 450px;
+    height: 250px;
 	/* width: 100%; */
 	border-radius: 8px;
 	display: block;
